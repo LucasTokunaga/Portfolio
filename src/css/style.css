@@ -1,0 +1,214 @@
+body {
+  background-color: #131212;
+}
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+  .cabecalho {
+    width: 100%;
+    height: 6.25vw;
+    background: #292727;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    text-align: center;
+  }
+
+  .menu {
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+  h3 {
+    display: flex;
+    text-align: center;
+    padding-right: 70px;
+    padding-left: 70px;
+    font-family: Play, sans-serif;
+    font-size: 2.20em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variant: all-small-caps;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+  }
+
+  #fundo-sakura {
+    width: 100%;
+    height: 60.5em;
+    z-index: 0;
+    position: absolute;
+  }
+
+  #triangulo {
+    width: 60.41vw;
+    height: 33.85vw;
+    fill: #292727;
+    stroke-width: 1px;
+    stroke: #000;
+    z-index: 1;
+    position: relative;
+    margin-top: 310px;
+  }
+
+  .box1 {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  #foto {
+    width: 377 em;
+    height: 377 em;
+    transform: rotate(-15.866deg);
+    z-index: 3;
+    bottom: 20%;
+    left: 16%;
+    position: absolute;
+  }
+
+  .titulo-nome {
+    width: 748px;
+    height: 172px;
+    flex-shrink: 0;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Play, sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: small-caps;
+    position: absolute;
+    top: 72%;
+    left: 3%;
+    z-index: 2;
+  }
+
+  .segunda-tela {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/fundo-tela.png');
+    background-size: cover;
+  }
+
+  .box2 {
+    display: flex;
+    margin-left: 5.2vw;
+    margin-right: 5.2vw;
+  }
+
+  .gif {
+    flex: 1;
+  }
+
+  .texto-titulo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    background-color: #131212;
+  }
+
+  .titulo {
+    background-color: #FFC0CB;
+    border-radius: 15px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titulo h2 {
+    color: #000;
+    text-align: center;
+    font-family: Play;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: small-caps;
+  }
+
+
+  .texto {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 52.6vh;
+  }
+
+  .linha-circulo {
+    margin: 8vh 0;
+    width: 20vw;
+    height: auto;
+  }
+
+  #gif1 {
+    height: 65vh;
+    width: 59vw;
+    border-radius: 15px;
+    position: relative;
+  }
+
+  #linha-direita {
+    position: absolute;
+    right: 0;
+  }
+
+  #linha-centro {
+    margin: 0.6em;
+    width: 20vw;
+    justify-content: center;
+    align-self: center;
+    height: 0.3vh;
+  }
+
+  .texto {
+    padding-left: 1.5em;
+    padding-top: 1em;
+    color: #000;
+    font-family: Play;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .negrito {
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .terceira-tela {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/fundo-tela.png');
+    background-size: cover;
+  }
+
+  .box3 {
+    display: flex;
+    margin-left: 5.2vw;
+    margin-right: 5.2vw;
+  }
+
+  .box3 .texto {
+    flex: 1;
+    display: flex;
+    margin-left: 2vw;
+    background-color: #ffffff;
+  }
+
+  #gif2 {
+    height: 65vh;
+    width: 59vw;
+    border-radius: 15px;
+    position: relative;
+  }
+}

@@ -1,12 +1,28 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
-  background-color: #131212;
+  background-color: #121212;
 }
 
 /* Extra large screens */
-@media (min-width: 1920px) {
+
+  .portfolio {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .primeira-tela {
+    width: 100%;
+    height: auto;  
+  }
+
+
   .cabecalho {
     width: 100%;
-    height: 6.25vw;
+    height: 13vh;
     background: #292727;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -39,12 +55,13 @@ body {
 
   }
 
-  #fundo-sakura {
+  
+  /* #fundo-sakura {
     width: 100%;
     height: 60.5em;
     z-index: 0;
     position: absolute;
-  }
+  } */
 
   #triangulo {
     width: 60.41vw;
@@ -54,13 +71,16 @@ body {
     stroke: #000;
     z-index: 1;
     position: relative;
-    margin-top: 310px;
+    margin-top: 300px;
+    margin-bottom: 7px;
   }
 
   .box1 {
     display: flex;
     margin: 0 auto;
     position: relative;
+    background-image: url('../img/fundo-sakura.png');
+    background-size: cover;
   }
 
   #foto {
@@ -93,18 +113,19 @@ body {
 
   .segunda-tela {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-image: url('../img/fundo-tela.png');
-    background-size: cover;
+    background-repeat: repeat;
   }
 
-  .box2 {
+  .segunda-tela .box2 {
     display: flex;
     margin-left: 5.2vw;
     margin-right: 5.2vw;
+
   }
 
-  .gif {
+  .segunda-tela .gif {
     flex: 1;
   }
 
@@ -113,7 +134,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 2vw;
-    background-color: #131212;
+    background-color: #121212;
   }
 
   .titulo {
@@ -155,10 +176,14 @@ body {
     border-radius: 15px;
     position: relative;
   }
-
   #linha-direita {
-    position: absolute;
-    right: 0;
+    position: relative;
+    margin-left: 80vw;
+  }
+
+  .segunda-tela #linha-direita {
+    position: relative;
+    margin-left: 80vw;
   }
 
   #linha-centro {
@@ -170,8 +195,7 @@ body {
   }
 
   .texto {
-    padding-left: 1.5em;
-    padding-top: 1em;
+    padding: 1.5em;
     color: #000;
     font-family: Play;
     font-size: 35px;
@@ -187,9 +211,9 @@ body {
 
   .terceira-tela {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-image: url('../img/fundo-tela.png');
-    background-size: cover;
+    background-repeat: repeat;
   }
 
   .box3 {
@@ -201,8 +225,9 @@ body {
   .box3 .texto {
     flex: 1;
     display: flex;
-    margin-left: 2vw;
+    margin-right: 2vw;
     background-color: #ffffff;
+    height: 65vh;
   }
 
   #gif2 {
@@ -211,4 +236,104 @@ body {
     border-radius: 15px;
     position: relative;
   }
-}
+
+  /* ::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #292727;
+  } */
+
+  .quarta-tela {
+    width: 100%;
+    height: auto;
+    background-image: url('../img/fundo-tela.png');
+    background-repeat: repeat;
+   
+  }
+
+  .quarta-tela .box4 {
+    display: flex;
+    margin-left: 5.2vw;
+    margin-right: 5.2vw;
+
+  }
+
+  .quarta-tela .gif {
+    flex: 1;
+  }
+
+  #gif3 {
+    height: 65vh;
+    width: 59vw;
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .quinta-tela {
+    width: 100%;
+    height: auto;
+    background-image: url('../img/fundo-tela.png');
+    background-repeat: repeat;
+    justify-content: center;
+  }
+
+  .quinta-tela .box5 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.2vw;
+    margin-right: 5.2vw;
+    width: 80vw;
+  }
+
+  .quinta-tela {
+    background-color: #121212;  
+    display: flex;
+    text-align:center;
+  }
+
+  .box5 .texto {
+    display: flex;
+    background-color: #ffffff;
+    height: 20vh;
+    padding-top:0.4em;
+  }
+
+  .imagem-projeto img {
+    width: 50vw;
+    margin-bottom: 1em
+  }
+
+  .box5 #linha-centro {
+    margin-top: 1em ;
+  }
+
+  .box5 {
+    background-color: #121212;  
+  }
+
+  .sexta-tela {
+    width: 100%;
+    height: auto;
+    background-image: url('../img/fundo-tela.png');
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column; /* Para garantir que as duas divs estejam empilhadas verticalmente */
+    align-items: center; /* Para centralizar os elementos horizontalmente */
+    text-align: center; /* Para alinhar o texto ao centro */
+  }
+  
+  #linhas-grupo {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+  }
+  
+  .box6 {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    justify-content: flex-start;
+    background-color: #121212;
+    height: 50vh;
+  }

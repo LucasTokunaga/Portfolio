@@ -7,8 +7,6 @@ body {
   background-color: #121212;
 }
 
-/* Extra large screens */
-
 .portfolio {
   flex-direction: column;
   display: flex;
@@ -227,14 +225,6 @@ a {
   border-radius: 15px;
   position: relative;
 }
-
-/* ::-webkit-scrollbar {
-    width: 20px;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: #292727;
-  } */
 
 .quarta-tela {
   width: 100%;
@@ -813,10 +803,77 @@ a {
     height: 9em;
     bottom:10%;
   }
+
+  .box2 .texto {
+    height: 30vh;
+  }
+
+  .box5 .texto {
+    height: 30vh;
+  }
 }
 
-/* @media (max-height: 950px) and (max-width: 1920px) {
-  .texto {
-    font-size: 2em
+  @media (max-width: 300px) {
+    h3 {
+      font-size: 0.7em;
+    }
+
+    .titulo-nome {
+      font-size: 1.5em;
+      margin-top: 2.4em;
+    }
+
+    #triangulo {
+      width: 100.50vw;
+      height: 50.00vw;
+    }
+
+    #foto {
+      width: 8em;
+      height: 8em;
+      bottom:12%;
+      left: 20%;
+    }
+
+    .box4 .texto{
+      height: 35vh;
+    }
+
+    .box5 .texto{
+      height: 35vh;
+    }
+
+    .icones ul {
+      margin-top: 0;
+    }
+
+    .rodape {
+      height: 7vh;
+    }
   }
-} */
+
+  @media (max-width: 1024px) and (max-height: 600px) {
+    .titulo {
+      height: 15vh;
+    }
+
+    .box2 .texto {
+      height: 35vh;
+    }
+
+    .box4 .texto {
+      height: 40vh;
+    }
+  
+    .box5 .texto {
+      height: 40vh;
+    }
+
+    .icones ul {
+      margin: 0;
+    }
+
+    .box6 {
+      height: 50vh;;
+    }
+  }

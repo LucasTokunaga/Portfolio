@@ -21,26 +21,26 @@
           <header class="cabecalho">
             <div class="menu">
               <a href="#sobre-mim">
-                <h3>Sobre Mim</h3>
+                <h3 class="destaque" id="sobre-mim-link">Sobre Mim</h3>
               </a>
               <img src="./src/img/linha-1.svg" alt="Linha de decoração">
               <a href="#habilidades">
-                <h3>Habilidades</h3>
+                <h3 class="destaque" id="habilidades-link">Habilidades</h3>
               </a>
               <img src="./src/img/linha-1.svg" alt="Linha de decoração">
               <a href="#projetos">
-                <h3>Projetos</h3>
+                <h3 class="destaque" id="projetos-link">Projetos</h3>
               </a>
               <img src="./src/img/linha-1.svg" alt="Linha de decoração">
               <a href="#contatos">
-                <h3>Contatos</h3>
+                <h3 class="destaque" id="contatos-link">Contatos</h3>
               </a>
             </div>
           </header>
           <div class="box1">
-            <img class="img-fluid" id="triangulo" src="src/img/triangulo.png"
+            <img id="triangulo" src="src/img/triangulo.png"
               alt="Imagem de triângulo como fundo de imagem e nome">
-            <img class="img-fluid" id="foto" src="src/img/lucas.png" alt="Imagem de apresentação (Lucas)">
+            <img id="foto" src="src/img/lucas.png" alt="Imagem de apresentação (Lucas)">
             <h1 class="titulo-nome">Lucas <br>Tokunaga da Silva</h1>
           </div>
         </div>
@@ -52,7 +52,7 @@
             alt="Linha com círculo para decoração.">
           <div class="box2">
             <div class="gif">
-              <img id="gif1" class="img-fluid" src="src/img/gif-1.gif" alt="Gif de rua com sakuras em volta.">
+              <img id="gif1" class="destaque" src="src/img/gif-1.gif" alt="Gif de rua com sakuras em volta.">
             </div>
             <div class="texto-titulo">
               <div class="titulo">
@@ -102,7 +102,7 @@
               </ul>
             </div>
             <div class="gif">
-              <img id="gif2" src="./src/img/gif-2.gif" alt="Gif de desenho de paisagem com trem no Japão">
+              <img id="gif2" class="destaque" src="./src/img/gif-2.gif" alt="Gif de desenho de paisagem com trem no Japão">
             </div>
           </div>
           <img id="habilidades" class="linha-circulo linha-esquerda" src="./src/img/linha-esquerda.png"
@@ -114,7 +114,7 @@
         <div class="quarta-tela">
           <div class="box4">
             <div class="gif">
-              <img id="gif3" class="img-fluid" src="src/img/gif-3.gif" alt="Gif de rua com sakuras em volta.">
+              <img id="gif3" class="destaque" src="src/img/gif-3.gif" alt="Gif de rua com sakuras em volta.">
             </div>
             <div class="texto-titulo">
               <div class="titulo">
@@ -154,7 +154,9 @@
               <img class="linha-centro" src="src/img/linha-centro.png"
                 alt="Linha de separação do título e texto para decoração.">
               <div class="imagem-projeto">
-                <img src="./src/img/projeto-1.png" alt="Imagem de projeto de site Sakura News.">
+                <a href="https://projeto-sakura-news.netlify.app" target="_blank">
+                  <img id="projeto1" class="destaque" src="./src/img/projeto-1.png" alt="Imagem de projeto de site Sakura News.">
+                </a>
               </div>
               <div class="texto">
                 <p>
@@ -171,7 +173,9 @@
               alt="Linha de separação do título e texto para decoração.">
             <div class="box5-2">
               <div class="imagem-projeto">
-                <img src="./src/img/projeto-2.png" alt="Imagem de projeto de site Sakura News.">
+                <a href="https://projeto-one-piece.netlify.app" target="_blank">
+                  <img id="projeto2" class="destaque" src="./src/img/projeto-2.png" alt="Imagem de projeto de site Sakura News.">
+                </a>
               </div>
               <div class="texto">
                 <p>
@@ -201,27 +205,27 @@
               <ul>
                 <li>
                   <a href="https://www.instagram.com/lucastokunaga_/" target="blank">
-                    <img id="instagram" src="./src/img/icone-instagram.png" alt="Ícone do Instagram.">
+                    <img class="destaque" id="instagram" src="./src/img/icone-instagram.png" alt="Ícone do Instagram.">
                   </a>
                 </li>
                 <li>
                   <a href="https://www.facebook.com/LucasTokunagaDaSilva" target="blank">
-                    <img id="facebook" src="./src/img/icone-facebook.png" alt="Ícone do Facebook.">
+                    <img class="destaque" id="facebook" src="./src/img/icone-facebook.png" alt="Ícone do Facebook.">
                   </a>
                 </li>
                 <li>
                   <a href="mailto:lucas.tokunaga.silva@gmail.com" target="blank">
-                    <img id="gmail" src="./src/img/icone-gmail.png" alt="Ícone do Gmail.">
+                    <img class="destaque" id="gmail" src="./src/img/icone-gmail.png" alt="Ícone do Gmail.">
                   </a>
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/in/lucas-tokunaga-da-silva/" target="blank">
-                    <img id="linkedin" src="./src/img/icone-linkedin.png" alt="Ícone do Linkedin.">
+                    <img class="destaque" id="linkedin" src="./src/img/icone-linkedin.png" alt="Ícone do Linkedin.">
                   </a>
                 </li>
                 <li>
                   <a href="https://github.com/LucasTokunaga" target="blank">
-                    <img id="github" src="./src/img/icone-github.png" alt="Ícone do Git Hub.">
+                    <img class="destaque" id="github" src="./src/img/icone-github.png" alt="Ícone do Git Hub.">
                   </a>
                 </li>
               </ul>
@@ -232,6 +236,9 @@
   <footer>
     <div class="rodape"></div>
   </footer>
+
+  <script src="src/js/script.js"></script>
+
 </body>
 
 </html>

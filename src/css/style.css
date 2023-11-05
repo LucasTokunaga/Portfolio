@@ -815,8 +815,8 @@ a {
   }
 }
 
-@media (max-height: 950px) {
+/* @media (max-height: 950px) and (max-width: 1920px) {
   .texto {
     font-size: 2em
   }
-}
+} */
